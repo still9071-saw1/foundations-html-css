@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* Base Style */
+body {
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+
+}
+.midasi {
+    margin: 10px;
+}
+.simple-box {
+    width: 200px;           /* 幅 */
+    height: 100px;          /* 高さ */
+    background-color: #eee; /* 背景色 */
+    border: 2px solid #333; /*枠線（太さ・種類・色）*/
+    padding: 20px;          /* 内側の余白 */
+    border-radius: 5px;     /* 角の丸み（オプション） */
+    margin: 10px;
+}
+.hr {
+    border: 0;
+    border-top: 1.5px solid blue;
+    width: 95%;
+}
+.dan {
+    margin: 0 10px;
+}
+.parent {
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.child1 {
+    width: 100%;
+    border: solid #333 1px;
+    margin: 0 10px;
+    text-align: left;
+    font-weight: normal;
+    color: red;
+}
+.child1:hover {
+    box-shadow: 0 0 0 #bbb;
+}
+.child2 {
+    width: 100%;
+    border: solid #333 3px;
+    margin: 0 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+.child3 {
+    width: 100%;
+    border: solid #333 5px;
+    margin: 0 10px;
+    text-align: right;
+    margin-top: 10px;
+    color: green;
+}
